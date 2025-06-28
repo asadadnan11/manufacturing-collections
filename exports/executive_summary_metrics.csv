@@ -1,0 +1,12 @@
+metric,value,format
+Total Invoices,1000.0,integer
+Total Invoice Value,6956955.880000001,currency
+Average Invoice Amount,6956.95588,currency
+Overall DSO,39.29348986125934,days
+Industry Benchmark DSO,40.0,days
+Collection Rate,93.7,percentage
+On-time Payment Rate,43.86339381003202,percentage
+Late Payment Rate,56.136606189967985,percentage
+High Risk Customers,49.0,integer
+Model Accuracy (XGBoost),0.6808510638297872,decimal
+Model AUC Score,0.7841465904450796,decimal

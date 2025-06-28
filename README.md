@@ -188,4 +188,4 @@ This project is designed as a demonstration of advanced analytics in financial o
 
 **Built with**: Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn, Jupyter
 
-**Contact**: [Your LinkedIn Profile] | [Your Email] | [Your Portfolio Website] 
+**Asad Adnan** 

@@ -2,6 +2,8 @@
 
 ## Executive Summary
 
+This class project simulates optimizing collections processes for a manufacturing company using synthetic data to reflect real-world payment behaviors.
+
 This project simulates a comprehensive collections optimization initiative for a large appliance manufacturing company, demonstrating advanced analytics and machine learning techniques to improve accounts receivable management. Using synthetic data that reflects realistic payment behaviors and industry patterns, the analysis showcases how data-driven approaches can significantly enhance cash flow and reduce financial risk.
 
 The project combines traditional financial analysis with cutting-edge predictive modeling to deliver actionable insights for collections strategy optimization.
@@ -95,7 +97,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
    ```
 
 4. **Open and Run**
-   - Open `maufacturing-collections.ipynb`
+   - Open `manufacturing-collections.ipynb`
    - Run all cells sequentially (Cell → Run All)
    - Analysis will generate visualizations and export CSV files
 
@@ -106,10 +108,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
 - **Business Insights**: Executive summary and recommendations
 
 ## 📊 Sample Visuals
-
-### Customer Risk Distribution
-![Customer Payment Risk Distribution](images/payment_risk_distribution.png)
-*Analysis of customer payment behavior showing risk category distribution across the portfolio*
 
 ### DSO Performance by Credit Terms
 ![DSO by Credit Terms](images/dso_by_credit_terms.png)
@@ -132,7 +130,6 @@ manufacturing-collections/
 ├── LICENSE                          # MIT License
 ├── requirements.txt                 # Python dependencies
 ├── images/                          # Visualization images
-│   ├── payment_risk_distribution.png
 │   ├── dso_by_credit_terms.png
 │   ├── model_performance_comparison.png
 │   └── monthly_dso_trends.png

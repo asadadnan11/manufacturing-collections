@@ -107,26 +107,35 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
 
 ## 📊 Sample Visuals
 
-### DSO Performance Trends
-*[Placeholder for DSO trend chart showing monthly performance and industry benchmark comparison]*
-
 ### Customer Risk Distribution
-*[Placeholder for pie chart showing risk category distribution: No Risk (45%), Low Risk (32%), Medium Risk (18%), High Risk (5%)]*
+![Customer Payment Risk Distribution](images/payment_risk_distribution.png)
+*Analysis of customer payment behavior showing risk category distribution across the portfolio*
+
+### DSO Performance by Credit Terms
+![DSO by Credit Terms](images/dso_by_credit_terms.png)
+*Days Sales Outstanding performance analysis compared to industry benchmark of 40 days*
 
 ### Model Performance Comparison
-*[Placeholder for ROC curve comparison showing XGBoost outperforming Logistic Regression]*
+![Model Performance Comparison](images/model_performance_comparison.png)
+*XGBoost significantly outperforms Logistic Regression in both accuracy and AUC-ROC metrics*
 
-### Payment Behavior Analysis
-*[Placeholder for histogram showing payment delay distribution with clear early/on-time/late segments]*
+### Monthly DSO Trends
+![Monthly DSO Trends](images/monthly_dso_trends.png)
+*Seasonal patterns in payment behavior with clear quarterly variations*
 
 ## 📁 Project Structure
 
 ```
 manufacturing-collections/
-├── maufacturing-collections.ipynb    # Main analysis notebook
+├── manufacturing-collections.ipynb    # Main analysis notebook
 ├── README.md                         # This file
 ├── LICENSE                          # MIT License
 ├── requirements.txt                 # Python dependencies
+├── images/                          # Visualization images
+│   ├── payment_risk_distribution.png
+│   ├── dso_by_credit_terms.png
+│   ├── model_performance_comparison.png
+│   └── monthly_dso_trends.png
 └── exports/                         # Generated CSV files
     ├── manufacturing_collections_main_data.csv
     ├── customer_risk_profiles.csv

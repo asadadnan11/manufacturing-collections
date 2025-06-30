@@ -1,4 +1,4 @@
-# Manufacturing Collections Optimization 📊
+# Manufacturing Collections Optimization
 
 ## Executive Summary
 
@@ -8,7 +8,7 @@ This project simulates a collections optimization initiative for a large applian
 
 The project combines traditional financial analysis with predictive modeling to deliver insights for collections strategy optimization. This work was completed as part of a graduate-level business analytics course, focusing on practical application of statistical methods to real-world business challenges.
 
-## 🎯 Business Objective
+## Business Objective
 
 **Primary Goal**: Explore the potential to reduce Days Sales Outstanding (DSO) and improve collections prediction accuracy to accelerate cash flow and minimize bad debt exposure.
 
@@ -19,51 +19,51 @@ The project combines traditional financial analysis with predictive modeling to 
 - Generate data-driven insights for collections strategy optimization
 - Demonstrate practical application of machine learning in finance operations
 
-## ✨ Key Features
+## Key Features
 
-### 📈 Data Generation & Simulation
+### Data Generation & Simulation
 - **Synthetic Dataset**: 1,000 realistic invoices across 500 customers
 - **Comprehensive Attributes**: Invoice amounts, payment terms, due dates, payment behaviors
 - **Realistic Patterns**: Industry-typical payment distributions, seasonal variations, and customer risk profiles
 - **Payment Scenarios**: On-time, late, and unpaid invoices reflecting real-world collection challenges
 
-### 🔧 Advanced Data Processing
+### Advanced Data Processing
 - **Missing Payment Handling**: Sophisticated logic for unpaid invoice management
 - **DSO Calculations**: Industry-standard metrics with benchmark comparisons
 - **Risk Categorization**: Multi-tier customer risk assessment (No Risk, Low Risk, Medium Risk, High Risk)
 - **Feature Engineering**: Customer payment history, seasonal patterns, and amount-based risk factors
 
-### 📊 Baseline Performance Analysis
+### Baseline Performance Analysis
 - **Industry Benchmarking**: Comparison against 40-day appliance manufacturing standard
 - **Segmentation Analysis**: Performance breakdown by credit terms, invoice amounts, and customer categories
 - **Trend Identification**: Monthly and quarterly payment pattern analysis
 - **Collection Efficiency**: Comprehensive rate calculations and performance metrics
 
-### 🤖 Advanced Predictive Modeling
+### Advanced Predictive Modeling
 - **Logistic Regression**: Statistical foundation for understanding payment behavior drivers
 - **XGBoost Implementation**: Gradient boosting for superior prediction accuracy
 - **Model Comparison**: Performance evaluation showing 18% accuracy improvement
 - **Feature Importance**: Data-driven insights into key late payment predictors
 
-### 📈 Comprehensive Visualizations
+### Comprehensive Visualizations
 - **Payment Risk Distribution**: Clear visualization of customer risk categories
 - **DSO Performance Trends**: Monthly and credit-term-based performance analysis
 - **Model Performance Comparison**: ROC curves and accuracy metrics
 - **Customer Segmentation**: Risk profile distributions and payment behavior patterns
 
-### 💼 Business Intelligence Integration
+### Business Intelligence Integration
 - **Power BI Ready**: Four export-ready CSV files for dashboard creation
 - **Executive Reporting**: Summary statistics and KPI tracking
 - **Customer Profiles**: Individual risk assessments and payment histories
 - **Model Predictions**: Real-time risk scoring for operational deployment
 
-## 🚀 Project Results & Learning Outcomes
+## Project Results & Learning Outcomes
 
 ### Model Performance Achieved:
-- 📊 **DSO Analysis**: Current performance ~15% above industry benchmark (40 days)
-- 🎯 **Prediction Models**: XGBoost achieved 0.856 AUC (18% improvement over logistic regression baseline)
-- 📈 **Risk Segmentation**: 89% accuracy in customer risk categorization
-- 💰 **Collection Analysis**: 94% overall collection rate identified across paid invoices
+- **DSO Analysis**: Current performance ~15% above industry benchmark (40 days)
+- **Prediction Models**: XGBoost achieved 0.856 AUC (18% improvement over logistic regression baseline)
+- **Risk Segmentation**: 89% accuracy in customer risk categorization
+- **Collection Analysis**: 94% overall collection rate identified across paid invoices
 
 ### Key Business Insights Discovered:
 - **High-Value Invoice Risk**: 23% higher late payment probability for invoices >$15,000
@@ -83,7 +83,7 @@ The project combines traditional financial analysis with predictive modeling to 
 - Customer behavior assumptions based on literature review vs. industry data
 - Model performance estimates may not generalize to different business contexts
 
-## 🛠️ How to Run
+## How to Run
 
 ### Prerequisites
 ```bash
@@ -119,7 +119,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
 - **Model Results**: Performance metrics and predictions
 - **Business Insights**: Executive summary and recommendations
 
-## 📊 Sample Visuals
+## Sample Visuals
 
 ### DSO Performance by Credit Terms
 ![DSO by Credit Terms](images/dso_by_credit_terms.png)
@@ -133,7 +133,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
 ![Monthly DSO Trends](images/monthly_dso_trends.png)
 *Seasonal patterns in payment behavior with clear quarterly variations*
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 manufacturing-collections/
@@ -152,7 +152,7 @@ manufacturing-collections/
     └── model_performance_comparison.csv
 ```
 
-## 💡 Implementation Recommendations
+## Implementation Recommendations
 
 ### Phase 1: Pilot Program (Months 1-3)
 1. **Model Validation**: Test predictive models on 6-month historical data subset
@@ -182,7 +182,7 @@ manufacturing-collections/
 - **A/B Testing**: Compare predictive vs. traditional collection approaches
 - **Longitudinal Study**: Track 12+ month outcomes for full seasonal cycle
 
-## 🔬 Technical Approach
+## Technical Approach
 
 ### Data Science Methodology
 - **Synthetic Data Generation**: Realistic simulation of manufacturing payment patterns
@@ -195,7 +195,7 @@ manufacturing-collections/
 - **Visualization Design**: Executive-friendly charts and operational dashboards
 - **Export Optimization**: Power BI-ready data formats and structures
 
-## ⚠️ Academic Disclaimer
+## Academic Disclaimer
 
 This is a **graduate-level coursework project** using **synthetic data** generated to simulate realistic manufacturing payment patterns. All results, insights, and recommendations are for **educational purposes only** and represent learning outcomes from a business analytics program.
 
